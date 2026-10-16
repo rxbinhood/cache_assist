@@ -1,0 +1,10 @@
+[project]
+name = "cache-assist"
+version = "0.1.0"
+description = "Test fixture: MCP server with unsafe deserialization (expected verdict: FAIL)."
+requires-python = ">=3.11"
+dependencies = ["mcp>=1.9,<2"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
